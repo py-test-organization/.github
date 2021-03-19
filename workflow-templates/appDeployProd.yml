@@ -15,6 +15,9 @@ jobs:
       VERSION: "latest"
 
       # rename necessary variables used in the app
+      # REACT_APP_APPS_DEVELOPER_ID: ${{secrets.APPS_DEVELOPER_ID}}
+      # REACT_APP_APP_ID: ${{ secrets.APP_ID }}
+      # REACT_APP_VERSION: "latest"
     steps:
     - name: Checkout
       uses: actions/checkout@v2
